@@ -1,0 +1,56 @@
+.RegisterImg{
+        opacity: 0.8;
+}
+.Register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background:url("https://img.freepik.com/free-photo/flat-lay-travel-composition-with-world-map-wooden-background_169016-16173.jpg?w=1500");
+    background-size:cover;
+}
+
+.RegisterTitle{
+    font-size: 50px;
+}
+
+.RegisterForm{
+    margin-top: 20px;
+    display: flex;
+    Color:white;
+    flex-direction: column; 
+}
+.RegisterForm > label{
+    margin: 10px 0;
+}
+
+.RegisterInput{
+    padding: 10px;
+    background-color: white;
+    border:none;
+    border-radius:10px;
+}
+
+.RegisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border:none;
+    color:white;
+    border-radius: 25px;
+    padding:8px;
+}
+
+.RegisterLoginButton{
+    position: absolute;
+    top: 80px;
+    right:40px;
+    background-color:lightcoral;
+    cursor:pointer;
+    border:none;
+    padding: 10px;
+    color:white;
+    border-radius:10px;
+}
